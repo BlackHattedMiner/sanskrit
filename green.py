@@ -45,9 +45,3 @@ if q == "अपुष्पोभ्दिदः":
     img = Image.open("fern.JPG")
     st.image(img,width=700)
 st.sidebar.write("हमारे संसाधन")
-
-
-res = 'https://drive.google.com/file/d/1RMkYwFWZwXELFSpgx0IRNqNjU0qNRf71/view?usp=sharing'
-
-if st.sidebar.button('इस पर क्लिक कीजिये.'):
-    webbrowser.open_new_tab(res)
