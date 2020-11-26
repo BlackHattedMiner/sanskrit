@@ -44,4 +44,3 @@ if q == "अपुष्पोभ्दिदः":
     st.error("अस्मिन् चित्रे अपुष्पोभ्दिदः अस्ति ; जातिः --> पोल्पोदिके")
     img = Image.open("fern.JPG")
     st.image(img,width=700)
-st.sidebar.write("हमारे संसाधन")
