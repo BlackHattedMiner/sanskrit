@@ -18,31 +18,31 @@ q = st.selectbox(
 )
 if q == "कृष्णः भल्लूकः":
     st.error("अस्मिन् चित्रे कृष्णः भल्लूकः अस्ति ; जातिः --> उर्सुस थिबेतनुस")
-    img = Image.open("bear.jpg")
+    img = Image.open("bear.JPG")
     st.image(img,width=700)
 if q == "तिब्बेतस्य लोमशः":
     st.error("अस्मिन् चित्रे तिब्बेतस्य लोमशः अस्ति ; जातिः --> वी.  फेरीलाटा")
-    imga = Image.open("fox.jpg")
+    imga = Image.open("fox.JPG")
     st.image(imga,width=700)
 if q == "कक्ताकी":
     st.error("अस्मिन् चित्रे कक्ताकी अस्ति ; जातिः --> नागफणि")
-    imgb = Image.open("cactus.jpg")
+    imgb = Image.open("cactus.JPG")
     st.image(imgb,width=700)
 if q == "पाटलं":
     st.error("अस्मिन् चित्रे एकम् पाटलं अस्ति ; जातिः --> रोसा केनिना")
-    imgc = Image.open("rose.jpg")
+    imgc = Image.open("rose.JPG")
     st.image(imgc,width=700)
 if q == "कोविदारः":
     st.error("अस्मिन् चित्रे कोविदारः अस्ति ; जातिः --> और्चिदाकाइ")
-    imgd = Image.open("orchid.jpg")
+    imgd = Image.open("orchid.JPG")
     st.image(imgd,width=700)
 if q == "हिम्पातस्य तरक्षुः":
     st.error("अस्मिन् चित्रे हिम्पातस्य तरक्षुः अस्ति ; जातिः --> पी. उनिसिा")
-    imge = Image.open("snow.jpg")
+    imge = Image.open("snow.JPG")
     st.image(imge,width=700)
 if q == "अपुष्पोभ्दिदः":
     st.error("अस्मिन् चित्रे अपुष्पोभ्दिदः अस्ति ; जातिः --> पोल्पोदिके")
-    img = Image.open("fern.jpg")
+    img = Image.open("fern.JPG")
     st.image(img,width=700)
 st.sidebar.write("हमारे संसाधन")
 
@@ -51,3 +51,4 @@ res = 'https://drive.google.com/drive/folders/1jYTR_9eKQVeY5rVuwOXupvxf2hOKySQZ?
 
 if st.sidebar.button('इस पर क्लिक कीजिये.'):
     webbrowser.open_new_tab(res)
+
