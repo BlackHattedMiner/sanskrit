@@ -51,4 +51,3 @@ res = 'https://drive.google.com/drive/folders/1jYTR_9eKQVeY5rVuwOXupvxf2hOKySQZ?
 
 if st.sidebar.button('इस पर क्लिक कीजिये.'):
     webbrowser.open_new_tab(res)
-
