@@ -47,7 +47,7 @@ if q == "अपुष्पोभ्दिदः":
 st.sidebar.write("हमारे संसाधन")
 
 
-res = 'https://drive.google.com/drive/folders/1jYTR_9eKQVeY5rVuwOXupvxf2hOKySQZ?usp=sharing'
+res = 'https://drive.google.com/file/d/1RMkYwFWZwXELFSpgx0IRNqNjU0qNRf71/view?usp=sharing'
 
 if st.sidebar.button('इस पर क्लिक कीजिये.'):
     webbrowser.open_new_tab(res)
